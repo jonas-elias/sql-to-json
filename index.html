@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Sql to JSON</title>
+</head>
+
+<body>
+
+    <form>
+        <div style="margin: 50px;">
+            <textarea style="width: 100%; height: 500px;" class="sql" name="sql"></textarea>
+        </div>
+
+        <div style="margin: 50px;">
+            <button style="width: 50%; height: 100px;" class="convert-button">Convert</button>
+        </div>
+
+        <div style="margin: 50px;">
+            <textarea style="width: 100%; height: 500px;" class="json-php"></textarea>
+        </div>
+    </form>
+</body>
+
+</html>
+
+<script>
+    $('.convert-button').click(function (e) { 
+        e.preventDefault();
+        
+        $.ajax({
+            type: "POST",
+            url: "./convert.php",
+            data: {sql: $('.sql').val()},
+            dataType: "JSON",
+            success: function (data) {
+                //data_parsed = JSON.stringify(data);
+
+                pretty = JSON.stringify(data, undefined, 4);
+
+                $('.json-php').val(pretty);
+
+                // for (let index = 0; index < data.length; index++) {
+                //     $('.json-php').val($('.json-php').val() + Jdata[index]);
+                // }
+            }
+        });
+    });
+</script>
