@@ -1,9 +1,9 @@
 <?php
 
-$mysqli = new mysqli('localhost', 'root', '', 'convert_sql_json');
+require_once "./connectionDatabase/conn.php";
 
-if ($mysqli->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+if ($conn->connect_error) {
+    die("Connection to database failed: " . $conn->connect_error);
 }
 
 $sql = str_replace("`", "", $_POST['sql']);
@@ -13,7 +13,7 @@ $sql = explode(';', trim($sql, ';'));
 $table_name = "";
 
 foreach ($sql as $value) {
-    if ($mysqli->query($value) === TRUE) {
+    if ($conn->query($value) === TRUE) {
         if (strpos($value, "CREATE") !== FALSE) {
             $string = str_split($value);
 
@@ -28,13 +28,13 @@ foreach ($sql as $value) {
             }
         }
     } else {
-        echo "Error execute query: " . $mysqli->error;
+        echo "Error execute query: " . $conn->error;
     }
 }
 
 $query_select = "select * from $table_name";
 
-$result = $mysqli->query($query_select);
+$result = $conn->query($query_select);
 $rows = $result->fetch_all(MYSQLI_ASSOC);
 
 echo json_encode($rows);
