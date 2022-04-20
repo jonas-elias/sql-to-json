@@ -1,12 +1,12 @@
 <?php
 
-require_once "./connectionDatabase/conn.php";
+require_once "./connection/conn.php";
 
 if ($conn->connect_error) {
     die("Connection to database failed: " . $conn->connect_error);
 }
 
-$sql = str_replace("`", "", $_POST['sql']);
+$sql = str_replace("`", "", strtoupper($_POST['sql']));
 
 $sql = explode(';', trim($sql, ';'));
 
@@ -27,8 +27,6 @@ foreach ($sql as $value) {
                 }
             }
         }
-    } else {
-        echo "Error execute query: " . $conn->error;
     }
 }
 
@@ -38,6 +36,11 @@ $result = $conn->query($query_select);
 $rows = $result->fetch_all(MYSQLI_ASSOC);
 
 echo json_encode($rows);
+
+$query_select = "DROP table $table_name";
+
+$conn->query($query_select);
+return;
 
 function sql_format($query)
 {
