@@ -6,4 +6,10 @@ Este é um repositório do projeto: sqlToJson. Desenvolvido em PHP-8, por Jonas 
 **[Documentação PHP](https://www.php.net/docs.php)**<br>
 
 ## Projeto
-<img src="https://i.ibb.co/vHJbW2m/print-sqltojson.png" alt="print-sqltojson" />
+<img src="https://i.postimg.cc/NjWPVWtv/print-sqltojson.png" alt="print-sqltojson" />
+
+Clone da aplicação (pasta que irá receber o projeto é opcional)
+
+```
+$ git clone https://github.com/SAwarm/sqlToJson.git
+```
