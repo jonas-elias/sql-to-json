@@ -6,4 +6,4 @@ Este é um repositório do projeto: sqlToJson. Desenvolvido em PHP-8, por Jonas 
 **[Documentação PHP](https://www.php.net/docs.php)**<br>
 
 ## Projeto
-<img src="https://i.ibb.co/drQSvn6/print-sqltojson.png" style="width: 200px;" alt="print-sqltojson" border="0" />
+<img src="https://i.ibb.co/vHJbW2m/print-sqltojson.png" alt="print-sqltojson" />
