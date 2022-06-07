@@ -1,4 +1,4 @@
-# sqlToJson
+# sql-to-json
 
 Este é um repositório do projeto: sqlToJson. Desenvolvido em PHP-8, por Jonas da Silva Elias.
 
