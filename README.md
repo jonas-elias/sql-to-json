@@ -11,5 +11,5 @@ Este é um repositório do projeto: sql-to-json. Desenvolvido em PHP-8, por Jona
 Clone da aplicação (pasta que irá receber o projeto é opcional)
 
 ```
-$ git clone [https://github.com/SAwarm/sqlToJson.git](https://github.com/SAwarm/sql-to-json.git)
+$ git clone https://github.com/SAwarm/sql-to-json.git
 ```
