@@ -4,7 +4,7 @@
 
 <img src="https://i.postimg.cc/NjWPVWtv/print-sqltojson.png" alt="print-sqltojson" />
 
-Clone da aplicação (pasta que irá receber o projeto é opcional)
+Clone of the application
 ```
 $ git clone https://github.com/SAwarm/sql-to-json.git
 ```
