@@ -1,6 +1,6 @@
 # sql-to-json
 
-This is a mini project with name: sql-to-json.
+## This is a mini project with a function of convert sql to json array with PHP-8.
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" height="40" width="52" alt="php logo"  />
@@ -8,9 +8,6 @@ This is a mini project with name: sql-to-json.
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" height="40" width="52" alt="jquery logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40" width="52" alt="bootstrap logo"  />
 </div>
-
-###
-
 
 ## Projeto
 <img src="https://i.postimg.cc/NjWPVWtv/print-sqltojson.png" alt="print-sqltojson" />
@@ -31,7 +28,6 @@ $ git clone https://github.com/SAwarm/sql-to-json.git
 
 ###
 
-<br>
-```bash
-  npm run test
+```
+<jonas-elias/>
 ```
