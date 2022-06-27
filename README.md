@@ -1,6 +1,6 @@
 # sql-to-json
 
-## This is a mini project with a function of convert sql to json array with PHP-8.
+## This is a mini project with a function of convert sql to json array.
 
 <img src="https://i.postimg.cc/NjWPVWtv/print-sqltojson.png" alt="print-sqltojson" />
 
