@@ -6,12 +6,13 @@
 
 Clone Application
 ```
-$ git clone https://github.com/SAwarm/sql-to-json.git
+ git clone https://github.com/SAwarm/sql-to-json.git
 ```
 
 Run Application
 ```
-$ php -S localhost:8000
+ cd sql-to-json
+ php -S localhost:8000
 ```
 
 <div align="left">
