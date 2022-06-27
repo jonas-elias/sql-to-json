@@ -16,6 +16,8 @@ $ git clone https://github.com/SAwarm/sql-to-json.git
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40" width="52" alt="bootstrap logo"  />
 </div>
 
+###
+
 <div align="left">
   <a href="https://www.linkedin.com/in/jonas-elias-475852215/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="55" height="40" alt="linkedin logo"  />
