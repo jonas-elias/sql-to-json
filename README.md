@@ -9,8 +9,6 @@ Clone da aplicação (pasta que irá receber o projeto é opcional)
 $ git clone https://github.com/SAwarm/sql-to-json.git
 ```
 
-###
-
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" height="40" width="52" alt="php logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" width="52" alt="javascript logo"  />
