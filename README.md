@@ -4,9 +4,16 @@
 
 <img src="https://i.postimg.cc/NjWPVWtv/print-sqltojson.png" alt="print-sqltojson" />
 
-Clone of the application
+Clone Application
 ```
 $ git clone https://github.com/SAwarm/sql-to-json.git
+```
+
+###
+
+Run Application
+```
+$ php -S localhost:8000
 ```
 
 <div align="left">
